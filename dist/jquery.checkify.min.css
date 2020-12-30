@@ -1,0 +1,10 @@
+/*!
+ * Checkify - A light-weight, mobile-ready and customizable validation plugin for jQuery
+ *
+ * Copyright 2018, Mehdi Dehghani
+ *
+ * @author   Mehdi Dehghani (http://www.github.com/dehghani-mehdi)
+ * @license  Licensed under MIT (https://github.com/dehghani-mehdi/checkify/blob/master/LICENSE)
+ *
+ * Version: 0.0.8
+ */.checkify input[type=number].checkify__has-error,.checkify input[type=password].checkify__has-error,.checkify input[type=text].checkify__has-error,.checkify select.checkify__has-error,.checkify textarea.checkify__has-error{border-color:#d32f2f}.checkify input[type=checkbox].checkify__has-error{box-shadow:0 0 0 3px #d32f2f}.checkify .checkify__message{color:#fff;background-color:#d32f2f;font-size:.9em;line-height:2.2;position:absolute;z-index:999;padding:0 12px;border-radius:2px;max-width:300px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;left:0}.checkify .checkify__message:before{display:block;width:0;height:0;position:absolute;top:-10px;left:5px;content:"";border:5px solid transparent;border-bottom-color:#d32f2f}.checkify .checkify__message.checkify__message-right{right:0;left:auto}.checkify .checkify__message.checkify__message-right:before{right:5px;left:auto}

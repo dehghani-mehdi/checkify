@@ -1,0 +1,43 @@
+{
+  "name": "checkify",
+  "version": "0.0.10",
+  "description": "A light-weight, mobile-ready and customizable form validation plugin for jQuery, inspired by [Validetta](https://github.com/hsnaydd/validetta)",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "start": "webpack-dev-server --history-api-fallback --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalify/checkify.git"
+  },
+  "keywords": [],
+  "author": "Mehdi Dehghani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitalify/checkify/issues"
+  },
+  "homepage": "https://github.com/digitalify/checkify#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.6.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "browserslist": "^4.6.3",
+    "caniuse-lite": "^1.0.30000979"
+  }
+}
